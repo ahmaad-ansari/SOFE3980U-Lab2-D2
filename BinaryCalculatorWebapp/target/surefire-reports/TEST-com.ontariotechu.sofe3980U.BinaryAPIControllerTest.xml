@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ontariotechu.sofe3980U.HelloControllerTest" time="0.372" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="2.194" tests="64" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -60,6 +60,68 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="getDefault" classname="com.ontariotechu.sofe3980U.HelloControllerTest" time="0.016"/>
-  <testcase name="helloWithName" classname="com.ontariotechu.sofe3980U.HelloControllerTest" time="0.003"/>
+  <testcase name="multiply1" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.186"/>
+  <testcase name="multiply2" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="multiply3" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="multiply4" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="multiply5" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="multiply6" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="multiply7" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="multiply8" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="or1" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="or2" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="or3" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="or4" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="or5" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="or6" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="or7" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="or8" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="add1" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.004"/>
+  <testcase name="add2" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="add3" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="add4" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="add5" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="add6" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="add7" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="add8" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="and1" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="and2" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="and3" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="and4" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="and5" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="and6" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="and7" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="and8" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="add_json1" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.136"/>
+  <testcase name="add_json2" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="add_json3" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="add_json4" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="add_json5" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="add_json6" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="add_json7" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="add_json8" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="and_json1" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="and_json2" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="and_json3" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="and_json4" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="and_json5" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="and_json6" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="and_json7" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="and_json8" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="or_json1" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="or_json2" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="or_json3" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="or_json4" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="or_json5" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="or_json6" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="or_json7" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="or_json8" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="multiply_json1" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.003"/>
+  <testcase name="multiply_json2" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="multiply_json3" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="multiply_json4" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="multiply_json5" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="multiply_json6" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
+  <testcase name="multiply_json7" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.001"/>
+  <testcase name="multiply_json8" classname="com.ontariotechu.sofe3980U.BinaryAPIControllerTest" time="0.002"/>
 </testsuite>
