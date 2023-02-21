@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.ontariotechu.sofe3980U.HelloControllerTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.546 s <<< FAILURE! - in com.ontariotechu.sofe3980U.HelloControllerTest
-getDefault(com.ontariotechu.sofe3980U.HelloControllerTest)  Time elapsed: 0.121 s  <<< ERROR!
-org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [hello], template might not exist or might not be accessible by any of the configured Template Resolvers
-	at com.ontariotechu.sofe3980U.HelloControllerTest.getDefault(HelloControllerTest.java:34)
-Caused by: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [hello], template might not exist or might not be accessible by any of the configured Template Resolvers
-	at com.ontariotechu.sofe3980U.HelloControllerTest.getDefault(HelloControllerTest.java:34)
-
-helloWithName(com.ontariotechu.sofe3980U.HelloControllerTest)  Time elapsed: 0.005 s  <<< ERROR!
-org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [hello], template might not exist or might not be accessible by any of the configured Template Resolvers
-	at com.ontariotechu.sofe3980U.HelloControllerTest.helloWithName(HelloControllerTest.java:42)
-Caused by: org.thymeleaf.exceptions.TemplateInputException: Error resolving template [hello], template might not exist or might not be accessible by any of the configured Template Resolvers
-	at com.ontariotechu.sofe3980U.HelloControllerTest.helloWithName(HelloControllerTest.java:42)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.664 s - in com.ontariotechu.sofe3980U.HelloControllerTest
