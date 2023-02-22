@@ -35,17 +35,17 @@ public class BinaryAPIControllerTest {
 
     @Test
     public void add1() throws Exception {
-        this.mvc.perform(get("/add").param("operand1","111").param("operand2","1010"))//.andDo(print())
+        this.mvc.perform(get("/add").param("operand1","1000").param("operand2","1111"))//.andDo(print())
             .andExpect(status().isOk())
-            .andExpect(content().string("10001"));
+            .andExpect(content().string("10111"));
     }
 	@Test
     public void add_json1() throws Exception {
-        this.mvc.perform(get("/add_json").param("operand1","111").param("operand2","1010"))//.andDo(print())
+        this.mvc.perform(get("/add_json").param("operand1","1000").param("operand2","1111"))//.andDo(print())
             .andExpect(status().isOk())
-            .andExpect(MockMvcResultMatchers.jsonPath("$.operand1").value(111))
-			.andExpect(MockMvcResultMatchers.jsonPath("$.operand2").value(1010))
-			.andExpect(MockMvcResultMatchers.jsonPath("$.result").value(10001))
+            .andExpect(MockMvcResultMatchers.jsonPath("$.operand1").value(1000))
+			.andExpect(MockMvcResultMatchers.jsonPath("$.operand2").value(1111))
+			.andExpect(MockMvcResultMatchers.jsonPath("$.result").value(10111))
 			.andExpect(MockMvcResultMatchers.jsonPath("$.operator").value("add"));
     }
 

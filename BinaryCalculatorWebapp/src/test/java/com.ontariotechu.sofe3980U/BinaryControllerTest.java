@@ -92,11 +92,11 @@ public class BinaryControllerTest {
 
 	@Test
 	    public void postParameterAdd1() throws Exception {
-        this.mvc.perform(post("/").param("operand1","111").param("operator","+").param("operand2","1010"))//.andDo(print())
+        this.mvc.perform(post("/").param("operand1","1000").param("operator","+").param("operand2","1111"))//.andDo(print())
             .andExpect(status().isOk())
             .andExpect(view().name("result"))
-			.andExpect(model().attribute("result", "10001"))
-			.andExpect(model().attribute("operand1", "111"));
+			.andExpect(model().attribute("result", "10111"))
+			.andExpect(model().attribute("operand1", "1000"));
     }
 	@Test
 	    public void postParameterAdd2() throws Exception {
